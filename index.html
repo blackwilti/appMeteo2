@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apiMeteo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.css">
+</head>
+<body>
+    <div class="containerGlobal">
+        <div class="container">
+            <form >
+                <div class="form-group">
+                    <input type="text" class="form_control" id="inputCity" placeholder="Entrer le nom de la ville"/>
+                </div>
+            
+                <button type="submit" class="btn">rechercher</button>
+            </form>
+        </div>
+        <i class="wi wi-night-sleet icon"></i>
+        <div class="boxContainer">
+            <div id="city" class="box1"></div>
+            <div id="temp" class="box"></div>
+            <div id="humidity" class="box"></div>
+            <div id="wind" class="box"></div>
+            <div id="weather" class="box"></div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
